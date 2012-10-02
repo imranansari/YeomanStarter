@@ -17,7 +17,7 @@ define([
             var router = new Starter3.Routers.AppRouter();
             Backbone.history.start();
 
-            //
+            //Create Model
 
             var myModel = new Starter3.Models.MyModel({
                 firstName:"Homer",

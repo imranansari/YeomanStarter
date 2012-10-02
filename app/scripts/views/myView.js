@@ -2,7 +2,14 @@ define(["backbone", "app", "vendor/text!templates/main.html"], function (Backbon
 
     Starter3.Views.MyView = Backbone.Marionette.ItemView.extend({
         template:mainTpl,
-        el:"#mainView"
-    });
+        el:"#mainView",
 
+        events: {
+            'click': "closeView"
+        },
+
+        closeView:function(){
+            this.close();
+        }
+    });
 });
