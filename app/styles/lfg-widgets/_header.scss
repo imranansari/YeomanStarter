@@ -1,0 +1,53 @@
+header {
+  position: relative;
+  top: 0px;
+  //padding-top: 10px;
+  left: 0;
+  width: 100%;
+  height: 35px;
+
+  //font-size: 20px;
+  text-align: center;
+
+  background-color: $HeaderGradientTop_m;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($HeaderGradientTop_m), to($HeaderGradientBottom_m), color-stop(.5, $HeaderGradientMiddle_m));
+  background: -moz-linear-gradient(top, $HeaderGradientTop_m 0%, $HeaderGradientMiddle_m 50%, $HeaderGradientBottom_m 100%);
+
+  color: $White;
+  font-family: 'Average';
+  font-size: 250%;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  //line-height: 45px;
+
+  .appBar {
+    float: left;
+    padding-top: 3px;
+    // width: 250px;
+
+    .appTitle {
+      font-size: 10px;
+      font-weight: bold;
+      text-rendering: optimizelegibility;
+      color: $White;
+      vertical-align: 30%;
+    }
+  }
+
+  .appMenu {
+    float: right;
+  }
+}
+
+.fixedHeaderScrollingList {
+
+  .scolling_list_wrapper {
+    position: absolute !important;
+    z-index: 1;
+    top: 36px !important;;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+  }
+
+}

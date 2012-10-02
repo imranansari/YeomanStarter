@@ -9,9 +9,11 @@ require.config({
         plugins:"vendor/plugins",
 
         // Libraries
-        jquery:"vendor/jquery.min" ,
+        jquery:"vendor/jquery.min",
         underscore:"vendor/lodash.min",
         backbone:"vendor/backbone-min",
+        marionette:"vendor/backbone.marionette.min",
+        //backbone.marionette.handlebars:"vendor/backbone.marionette.handlebars.min",
         //backboneCollectionBinder:"vendor/Backbone.CollectionBinder",
         //backboneModelBinder:"vendor/Backbone.ModelBinder",
         handlebars:"vendor/handlebars.1.0.0.beta.3",
@@ -40,13 +42,13 @@ require.config({
         listjs:{
             exports:"List"
         }
-/*        backboneModelBinder:{
-            deps:["backbone","underscore"],
-            exports: "BackboneModelBinder"
-        },
-        backboneCollectionBinder:{
-            deps:["backbone", "backboneModelBinder"],
-            exports: "BackboneCollectionBinder"
-        }*/
+        /*        backboneModelBinder:{
+         deps:["backbone","underscore"],
+         exports: "BackboneModelBinder"
+         },
+         backboneCollectionBinder:{
+         deps:["backbone", "backboneModelBinder"],
+         exports: "BackboneCollectionBinder"
+         }*/
     }
 });

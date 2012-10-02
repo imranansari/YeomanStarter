@@ -1,0 +1,57 @@
+footer {
+  position: absolute;
+  //background-color: $FooterBurgundyBackground;
+  background-color:rgba(142,36,50,0.8);
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  //opacity: 0.7;
+  height: 48px;
+  padding: 0;
+//border-top: 1px solid #444; font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+  display: none;
+}
+
+.footerContent {
+  opacity: 1;
+  //padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  //width: 50%;
+  position: relative;
+
+  .primaryAction {
+    height: 38px;
+    width: 100%;
+  }
+
+  .secondaryAction {
+    height: 38px;
+    width: 100%;
+  }
+
+  .primaryActionContainer{
+    position: relative;
+    width: 68%;
+    float: right;
+    //background-color: red;
+    padding: 0px;
+  }
+
+  .secondaryActionContainer{
+    position: relative;
+    width: 30%;
+    float: left;
+   // background-color: red;
+  }
+
+  #selectedCount{
+    position: relative;
+    left: 45%;
+    top: -58px;
+  }
+}

@@ -1,0 +1,264 @@
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+}
+
+.mainContent {
+  font-size: 120%;
+  padding: 5px;
+}
+
+// ************************************************
+// LFG Web Colors Start
+// ************************************************
+
+// ************************************************
+// Core Colors p.8
+// ************************************************
+$LincolnLogoBurgundy:      #98002E;   //RGB: 152/0/46
+$FooterBurgundyBackground: #8E2432;   //RGB: 142/36/50
+$UtilityBarDarkBurgundy:   #610C1C;   //RGB: 97/12/28
+$MenuTextBurgundy:         #AA1733;   //RGB: 170/23/51
+$LincolnBlue:              #587992;   //RGB: 88/121/146
+$White:                    #FFFFFF;   //RGB: 255/255/255
+
+// Core Neutral Colors
+$LincolnBlack:             #000000;   //RGB: 0/0/0
+$CoreGrey1:                #333333;   //RGB: 51/51/51
+$CoreGrey2:                #4D4B44;   //RGB: 77/75/68
+$ContentTextGrey:          #666666;   //RGB: 102/102/102
+$CoreGrey3:                #6F6D62;   //RGB: 111/109/98
+$FooterTan1:               #BEB2A7;   //RGB: 190/178/167
+$FooterTan2:               #EDEBE5;   //RGB: 237/235/229
+
+// Core Gradients
+$BurgundyGradientTop:      #9D313D;   //RGB: 157/49/61
+$BurgundyGradientBottom:   #6C1E28;   //RGB: 108/30/40
+$GoldTabGradientTop:       #CA8F42;   //RGB: 202/143/66
+$GoldTabGradientBottom:    #80401A;   //RGB: 128/64/26
+$LightBlueTopGradient:     #F7F8F9;   //RGB: 247/248/249
+$LightBlueBottomGradient:  #8DA1AF;   //RGB: 141/161/175
+$OnePixelOutline:          #D6D6D6;   //RGB: 214/214/214
+
+// ************************************************
+// Secondary Colors  p.9
+// ************************************************
+// Yellow/Oranges
+$Orange:                   #F79410;   //RGB: 247/148/16
+$BrightYellow:             #FFC854;   //RGB: 255/200/84
+$LightYellow:              #F1D68F;   //RGB: 241/214/143
+
+// Blues
+$BrightBlue:               #BFE7EC;   //RGB: 191/231/236
+$LightBlue1:               #CDDEE0;   //RGB: 205/222/224
+$LightBlue2:               #E7EEEF;   //RGB: 231/238/239
+
+// Neutrals
+$NeutralGrey1:             #6D6D6D;   //RGB: 109/109/109
+$NeutralGrey2:             #8E8C86;   //RGB: 142/140/134
+$NeutralGrey3:             #F1EFEF;   //RGB: 241/239/239
+$NeutralTan1:              #D6D1C6;   //RGB: 214/209/198
+$NeutralTan2:              #E9E3D6;   //RGB: 233/227/214
+
+// Greens
+$DarkGreen:                #425C00;   //RGB: 66/92/0
+$MediumGreen:              #89B200;   //RGB: 137/178/0
+$PositiveNumberBkgGreen:   #CDE47F;   //RGB: 205/228/127
+
+// Red
+$ErrorRed:                 #FF3333;   //RGB: 255/51/51
+$NegativeNumberBkgRed:     #EEDEDE;   //RGB: 238/222/222
+
+// ************************************************
+// Enterprise Marketing Colors   p.10
+// ************************************************
+$BurgundyLincolnBrand:     #98002E;   //RGB: 152/0/46
+$KhakiAdvisor:             #C8B18B;   //RGB: 200/177/139
+$GreenIncomeAnnuities:     #778E1E;   //RGB: 119/142/30
+$TealLife:                 #5B9B98;   //RGB: 91/155/152
+$PlumMoneyGuard:           #5F3944;   //RGB: 95/57/68
+$OrangeRetirement:         #DF8C19;   //RGB: 223/140/25
+$YellowGreenGroupBenefits: #C0AF2C;   //RGB: 192/175/44
+
+// ************************************************
+// Chart Colors p.11
+// ************************************************
+$Sienna:                   #CD852A;   //RGB: 205/133/42
+$Gold:                     #DFBF23;   //RGB: 223/191/35
+$Gunmetal:                 #859594;   //RGB: 133/149/148
+$Coffee:                   #956827;   //RGB: 149/104/39
+$FadedKelly:               #74C498;   //RGB: 116/196/152
+$Pine:                     #006600;   //RGB: 0/102/0
+$Kelly2:                   #22AE1B;   //RGB: 34/174/27
+$FireEngine:               #F60000;   //RGB: 246/0/0
+$Reflex:                   #002596;   //RGB: 0/37/150
+$Plum:                     #B24F6A;   //RGB: 178/79/106
+$Indigo:                   #5A4772;   //RGB: 90/71/114
+$Royal:                    #5FA0D6;   //RGB: 95/160/214
+$Spring:                   #90C53C;   //RGB: 144/197/60
+$Tangerine:                #FF9900;   //RGB: 255/153/0
+$Iris:                     #4B0A3C;   //RGB: 75/10/60
+$Sand:                     #C8BEAF;   //RGB: 200/190/175
+$Asphalt:                  #666666;   //RGB: 102/102/102
+
+// ************************************************
+// Main Header Colors   p.19
+// ************************************************
+$BlueButtonBackground:     #587992;   //RGB: 88/121/146
+                                      //Usage: Navigation Tab Button
+                                      //       & Global Search
+
+$HeaderGradientTop:        #9D313D;   //RGB: 157/49/61
+$HeaderGradientBottom:     #6C1E28;   //RGB: 108/30/40
+                                      //Usage: Header Background
+
+$SpecialTabGradientTop:    #CA8F42;   //RGB: 202/143/66
+$SpecialTabGradientBottom: #80401A;   //RGB: 128/64/26
+                                      //Usage: Special Tab
+
+// ************************************************
+// Global Secondary Navigation Colors p.23
+// ************************************************
+
+$SecondaryTopGradient:     #F7F8F9;   //RGB: 247/248/249
+$SecondaryBottomGradient:  #8DA1AF;   //RGB: 141/161/175
+                                      //Usage: Secondary Background
+
+$RibbonBlueBackground:     #587992;   //RGB: 88/121/146
+                                      //Usage: Navigation Ribbon Background
+
+// ************************************************
+// Footer Colors p.30
+// ************************************************
+
+$FooterTanBackground:      #EDEBE5;     //RGB: 237/235/229
+                                        //Usage: Footer Bar
+//$FooterBurgundyBackground: #8E2432;   //RGB: 142/36/50
+                                        //Usage: Bottom Footer Bar
+
+// ************************************************
+// Main Containers   (MC_)    p.50
+// ************************************************
+$MainContainer:                #E9E3D6;   //RGB: 233/227/214
+                                          //Usage: Main container interior color
+$MainInteriorContainer1Pixel:  #D6D6D6;   //RGB: 214/214/214
+                                          //Usage: Main container interior 1 pixel outline
+
+$MC_SecondaryA_GradientTop:    #FFFFFF;   //RGB: 255/255/255
+$MC_SecondaryA_GradientBottom: #EBEBE4;   //RGB: 235/235/228
+
+$MC_SecondaryB_1PixelOutline:  #D6D6D6;   //RGB: 214/214/214
+                                          //Usage: Secondary Design B exterior 1 pixel outline
+
+$MC_SecondaryC:                #F1EFEF;   //RGB: 241/239/239
+                                          //Usage: Secondary Design C interior color
+$MC_SecondaryC_1PixelOutline:  #D4D2D1;   //RGB: 212/210/209
+                                          //Usage: Secondary Design C exterior 1 pixel outline
+
+
+$MC_SecondaryD:                #F1EFEF;   //RGB: 241/239/239
+                                          //Usage: Secondary Design D interior color
+$MC_SecondaryD_1PixelOutline:  #D4D2D1;   //RGB: 212/210/209
+                                          //Usage: Secondary Design D exterior and interior 1 pixel outline
+
+// ************************************************
+// Subcontainers   (SC_)    p.52
+// ************************************************
+$SC_A_1PixelOutline:            #D6D6D6;   //RGB: 214/214/214
+                                           //Usage: Subcontainer Design A exterior 1 pixel outline
+
+$SC_B_BackgroundGradientTop:    #FFFFFF;   //RGB: 255/255/255
+$SC_B_BackgroundGradientBottom: #F1EFEF;   //RGB: 241/239/239
+$SC_B_1PixelOutline:            #B5AB9F;   //RGB: 181/171/159
+                                           //Usage: Subcontainer Design B exterior 1 pixel outline
+
+$SC_C_Exterior:                 #D6D6D6;   //RGB: 214/214/214
+                                           //Usage: Subcontainer Design C exterior and interior 1 pixel outline
+$SC_C_Interior:                 #F1EFEF;   //RGB: 241/239/239
+                                           //Usage: Subcontainer Design C interior color
+
+$SC_D_BackgroundGradientTop:    #FFFFFF;   //RGB: 255/255/255
+$SC_D_BackgroundGradientBottom: #F5E6D1;   //RGB: 245/230/209
+$SC_B_1PixelOutline:            #CCCCCC;   //RGB: 204/204/204
+                                           //Usage: Subcontainer Design D exterior 1 pixel outline
+
+$SC_E_1PixelOutline:            #D6D6D6;   //RGB: 214/214/214
+                                           //Usage: Subcontainer Design E exterior 1 pixel outline
+$SC_E_Interior:                 #E7EEEF;   //RGB: 231/238/239
+                                           //Usage: Subcontainer Design E interior color
+
+
+// ************************************************
+// Data Grid Colors
+// ************************************************
+$InitialRowColor:          #E8E7DF;   //RGB: 232/231/223
+$AlternateRowColor:        #FBFAF1;   //RGB: 251/250/241
+$VerticalGridFrame:        #AFA397;   //RGB: 175/163/151
+
+
+// Filter Container  p.99
+$FilterContainerBackground:     #F6F5F2;   //RGB: 246/245/242
+$FilterContainer_1PixelOutline: #C0B6AB;   //RGB: 192/182/171
+
+// ************************************************
+// LFG Web Colors End
+// ************************************************
+
+
+
+
+// ************************************************
+// LFG Mobil Colors Start
+//  _m suffix indicates it is mobile specific
+// ************************************************
+
+
+//many more to place here
+
+// Mobile Page Layout 1 (Full View) p.161
+$StatusBar_m:              #000000;    //RGB: 0/0/0
+
+$HeaderGradientTop_m:      #AA1733;   //RGB: 170/23/51
+$HeaderGradientMiddle_m:   #73232F;   //RGB: 115/35/47
+$HeaderGradientBottom_m:   #591620;   //RGB: 89/22/32
+
+$ToolGradientTop_m:        #9D9083;   //RGB: 157/144/131
+$ToolGradientMiddle1_m:    #70665A;   //RGB: 112/102/90
+$ToolGradientMiddle2_m:    #4B4239;   //RGB: 75/66/57
+$ToolGradientBottom_m:     #4D443B;   //RGB: 77/68/59
+
+// p.172
+$ButtonNotSelectedGradientTop_m:      #DAEFFE;   //RGB: 218/239/254
+$ButtonNotSelectedGradientBottom_m:   #6D90AA;   //RGB: 109/144/170
+
+$ButtonSelectedGradientTop_m:         #272727;   //RGB: 39/39/39
+$ButtonSelectedGradientBottom_m:      #545454;   //RGB: 84/84/84
+
+
+// selectable table view p. 177
+$BlueButtonGradientTop_m:     #587992;   //RGB: 88/121/146
+$BlueButtonGradientBottom_m:  #314D62;   //RGB: 49/77/98
+
+$FormsBackgroundColor_m:      #F7F7F7;   //RGB: 233/227/214
+
+
+// ************************************************
+// LFG Mobile Colors End
+// ************************************************
+
+
+
+// ************************************************
+// LFG Variables
+// ************************************************
+
+// ************************************************
+// Media Query Sizes
+// ************************************************
+$desktop_container_min: 769px;
+$tablet_container_min: 321px;
+$tablet_container_max: 768px;
+$phone_container_max: 320px;
+
+
+//only screen and (min-width: 321px) and (max-width: 768px)

@@ -1,0 +1,244 @@
+/* Stonehenge Content */
+
+.loading {
+  height: 3em;
+  background: url('../img/ajax-loader.gif') no-repeat center center;
+}
+#detail figure.loading img, #detail figure.loading figcaption {
+  display: none;
+}
+
+.sidetapcontainer {
+  padding: 44px 0 0;
+}
+#about .sidetapcontainer {
+  text-align: center;
+  padding: 84px 10px 10px;
+}
+
+.thumbnails {
+  overflow: auto;
+  padding-top: 1.5%;
+}
+.thumbnails li {
+  float: left;
+  width: 23.5%;
+  margin: 0 0 1.5% 1.5%;
+  line-height: 0;
+}
+.thumbnails li img {
+  display: block;
+  width: 100%;
+}
+.thumbnails.loading li {
+  display: none
+}
+
+#detail img {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+#detail figcaption {
+  font-style: normal;
+  padding: 10px;
+  text-align: center;
+}
+#detail cite {
+  font-style: normal;
+  font-weight: bold;
+}
+#detail address {
+  font-size: 12px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.sidetap-logo {
+  display: block;
+  margin: 0px auto;
+  padding: 20px 0;
+  width: 80%;
+}
+small {
+  display: block;
+  font-size: 12px;
+  padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+// Theme
+/* Reset */
+
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+  Sidetap Default Theme
+  Demo app: Stonehenge
+*/
+
+.stp-nav {
+  background: $ToolGradientTop_m !important;
+  border-right: 1px solid black;
+  width: 272px;
+}
+nav {
+  display: block;
+}
+nav > a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  height: 42px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 0 0 10px;
+  position: relative;
+  text-decoration: none;
+}
+nav > a:after {
+  background: transparent url('/images/arrow-right-white.png') no-repeat left center;
+  content: ' ';
+  display: block;
+  height: 41px;
+  opacity: 0.3;
+  position: absolute;
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+  right: 0;
+  top: 0;
+  width: 19px;
+  -webkit-background-size: 19px 14px;
+  -moz-background-size: 19px 14px;
+  -o-background-size: 19px 14px;
+  background-size: 19px 14px;
+}
+nav > a.selected {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  color: white;
+}
+nav > a.selected:after {
+  opacity: 1;
+}
+header {
+  //background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8d7467), color-stop(100%, #3f6755));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($HeaderGradientTop_m), to($HeaderGradientBottom_m), color-stop(.5, $HeaderGradientMiddle_m));
+  //background: -webkit-linear-gradient(top, #8d7467, #3f6755);
+
+  border-bottom: 1px solid #281730;
+  color: white;
+  display: block;
+  height: 43px;
+  position: absolute;
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  width: 100%;
+  z-index: 1;
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2), 0px 1px 5px rgba(0, 0, 0, 0.75);
+}
+header .header-button {
+  //background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8d7467), color-stop(100%, #3f6755));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($HeaderGradientTop_m), to($HeaderGradientBottom_m), color-stop(.5, $HeaderGradientMiddle_m));
+
+  border: 1px solid #32163d;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  height: 28px;
+  left: 5px;
+  line-height: 26px;
+  padding: 0 8px;
+  position: absolute;
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  top: 7px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -o-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+header .header-button.right {
+  left: auto;
+  right: 5px;
+}
+header .header-button.icon span {
+  display: inline-block;
+  text-indent: -9999px;
+}
+header .header-button.menu span {
+  background: transparent url('/images/menu.png') no-repeat;
+  height: 15px;
+  margin: 6px 2px 0;
+  width: 17px;
+  -webkit-background-size: 17px 15px;
+  -moz-background-size: 17px 15px;
+  -o-background-size: 17px 15px;
+  background-size: 17px 15px;
+}
+header .header-button.info span {
+  background: transparent url('/images/info.png') no-repeat;
+  height: 17px;
+  margin: 5px 5px 0;
+  width: 8px;
+  -webkit-background-size: 8px 17px;
+  -moz-background-size: 8px 17px;
+  -o-background-size: 8px 17px;
+  background-size: 8px 17px;
+}
+.stp-content {
+  background: #171a21;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.stp-content-panel {
+  background: #f5f5dc;
+}
+.sidetapcontainer {
+  padding: 54px 10px 10px;
+}
