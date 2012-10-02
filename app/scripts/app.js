@@ -15,6 +15,7 @@ define(["marionette", "handlebars"], function(Marionette, Handlebars) {
     }
 
 
+    //Overrides for Handlebars Templating
     Backbone.Marionette.TemplateCache.prototype.loadTemplate = function(templateId) {
         // Marionette expects "templateId" to be the ID of a DOM element.
         // But with RequireJS, templateId is actually the full text of the template.
